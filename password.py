@@ -11,4 +11,4 @@ if __name__ == '__main__':
 
 
 passwd = input('Put password\n')
-print('good!') if passwd.isalnum and len(passwd) >= 8 else print('not good :(')
+print('good!') if passwd.isalnum and len(passwd) >= 8 else print('not good :((')

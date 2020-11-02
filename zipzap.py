@@ -20,4 +20,4 @@ for i in range(0, 101):
     elif i % 3 == 0:
         print('zip')
     else:
-        print(i)
+        print(i) 

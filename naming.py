@@ -4,7 +4,7 @@
 # переменные spam и eggs на один и тот же объект в пямяти
 spam = None
 eggs = None
-print ('same memory obj') if id(spam) == id(eggs) else print('different memory objects') 
+print ('same memory Obj') if id(spam) == id(eggs) else print('different memory objects') 
 
 # придумай название для переменной, которая хранит список
 # активных студентов, оставь этот список пустым
@@ -17,4 +17,5 @@ max_number = 45
 min_number = 1
 # создай константу для хранения числа Пи и запиши в неё первые 10 знаков
 PI =  3,1415926535
+
 

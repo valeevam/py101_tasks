@@ -41,7 +41,7 @@ while True:
         else: 
             print('Number %s not in bounds - (%s, %s ).' % (try_num, low_b, up_b))
     elif try_num == 'stop':
-        print('Oh... The SECRET is - ' + str(SECRET))
+        print('The SECRET is - ' + str(SECRET))
         break
     else:
         mess = try_num + ' - Is not number!'

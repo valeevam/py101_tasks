@@ -24,7 +24,7 @@ def get_value(dict_pair):
 
 stop_words = stopwords.words('english') + stopwords.words('russian')
 counting_words = {}
-parser = argparse.ArgumentParser(description='Put filename to analyze it to top-100 frequency used words! \
+parser = argparse.ArgumentParser(description='Put filename to analyze it to Top-100 frequency used words! \
                                 (my_text.txt is default)')
 parser.add_argument('filename', nargs='?', default='my_file.txt')
 filename = parser.parse_args().filename

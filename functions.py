@@ -41,11 +41,11 @@ def is_python_keyword(str_to_check):
 
 def get_type_rus (obj_to_check):
     rus_types = {
-        type('') : 'Это срока',
-        type(1) : 'Это целое число',
-        type(1.1) : 'Это вещественное число', 
-        type([1,2,3]) : 'Это список',
-        type({1:1, 2:2}) : 'Это словарь'
+        type(''): 'Это срока',
+        type(1): 'Это целое число',
+        type(1.1): 'Это вещественное число', 
+        type([1,2,3]): 'Это список',
+        type({1:1, 2:2}): 'Это словарь'
     }
     type_of_obj=type(obj_to_check)
     print(rus_types[type_of_obj]) if type_of_obj in rus_types else print('Не могу перевести, Тип переменной '+ str(type_of_obj))
