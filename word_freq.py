@@ -47,4 +47,3 @@ if os.path.isfile(filename) and os.path.getsize != 0:
         top100 += 1                    
 else: 
     print('You gave me something wrong.. %s is EMPTY or is NOT a file!' % (filename)) 
-
