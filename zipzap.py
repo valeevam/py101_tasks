@@ -14,7 +14,6 @@ if __name__ == '__main__':
 for i in range(0, 101):
     if i % 15 == 0:
         print('zap-zip')
-        continue
     elif i % 5 == 0:
         print('zap')
     elif i % 3 == 0:
